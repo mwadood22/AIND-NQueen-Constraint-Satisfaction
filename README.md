@@ -62,6 +62,7 @@ To install the dependencies, run:
 
 ```bash
 pip install sympy matplotlib ipython
+```bash
 
 ## Usage
 To solve the N-Queens problem, run the main.py script. It will solve the problem for a 5x5 board by default, but you can modify the num_queens variable to change the board size.
@@ -77,6 +78,7 @@ if solution:
     csp.show(solution)
 else:
     print("No solution found.")
+```bash
 
 ## Output
 The solution will be displayed as a chessboard with queens placed in valid positions. For example, a solution for a 5x5 board might look like this:
@@ -84,6 +86,7 @@ The solution will be displayed as a chessboard with queens placed in valid posit
 ```bash
 Solution found:
 {col0: 0, col1: 2, col2: 4, col3: 1, col4: 3}
+```bash
 
 ## Conclusion
 This project demonstrates the power of Constraint Satisfaction in solving problems like the N-Queens puzzle. By using symbolic math to define constraints and backtracking for searching, we can efficiently find solutions to problems with multiple variables and complex constraints.
