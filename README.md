@@ -13,6 +13,8 @@ The N-Queens problem asks us to place N queens on an N x N chessboard such that:
 
 This project generalizes the classic 8-Queens problem to N queens on an N x N board, using the symbolic math capabilities of **SymPy** to handle the constraints and recursive **Backtracking** for solution search.
 
+![8-queens puzzle solution](EightQueens.gif)
+
 ## Steps
 
 ### Step 1: Representing the N-Queens Problem
